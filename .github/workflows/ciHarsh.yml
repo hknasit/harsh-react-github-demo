@@ -20,8 +20,7 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: '20'
-    - name: change diractory
-      run: cd harsh_react
+
     - name: Install dependencies
       run: npm install
 
